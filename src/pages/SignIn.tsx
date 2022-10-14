@@ -11,6 +11,7 @@ import { TextInput } from '../components/TextInput';
 import { Text } from '../components/Text';
 import Logo from '../Logo';
 
+import imagem from '../images/reactLogo.svg'
 
 export function SignIn() {
     const [isUserSignedIn, setIsUserSignedIn] = useState(false)
@@ -31,11 +32,8 @@ export function SignIn() {
     return (
         <div className='w-screen h-screen bg-gray-900 flex flex-col items-center justify-center text-gray-100'>
             <header className='flex flex-col items-center'>
-                <Logo />
+                <img src={imagem} />
 
-                <Heading size='lg' className='mt-4'>
-                    Ignite Lab
-                </Heading>
                 <Text size='lg' className='text-gray-400 mt-1'>
                     Faça Login e comece a usar!
                 </Text>
