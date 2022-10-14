@@ -30,6 +30,8 @@ A página de Login foi construída e o processo de deploy do <i>Storybook</i> fo
 Pode ser acessado pelo link:
 https://mayaragao.github.io/Design-System/
 
+A identidade visual desenvolvida pode ser acessada pelo seguinte link: [Figma Design System](https://www.figma.com/file/Brf0ceGz5219YzgkG5JjyW/Ignite-Lab-Design-System?node-id=1%3A3)
+
 ##
 
 ### Instalação
