@@ -1,5 +1,14 @@
-<div align="center">
+<!--- <div align="center">
   <img src="src/images/reactLogoDark.svg" width="250" title="Design System">
+ </div>
+ 
+ -->
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="src/images/reactLogo.svg">
+  <img alt="Text changing depending on mode. Light: 'So light!' Dark: 'So dark!'"  width="250" title="Design System" src="src/images/reactLogoDark.svg">
+</picture>
 </div>
 
 ##
